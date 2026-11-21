@@ -1,0 +1,168 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Dreamehome account",
+        "description": "Log in with the account you use in the Dreamehome app.",
+        "data": {
+          "username": "E-mail",
+          "password": "Password",
+          "country": "Server region"
+        }
+      },
+      "device": {
+        "title": "Select fridge",
+        "data": {
+          "device_id": "Fridge"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Log in again",
+        "description": "The password for {username} is no longer accepted.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid e-mail or password.",
+      "cannot_connect": "Could not reach the Dreamehome cloud.",
+      "no_fridge": "No Dreame fridge found in this account."
+    },
+    "abort": {
+      "already_configured": "This fridge is already set up.",
+      "reauth_successful": "Login updated."
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "eu": "Europe",
+        "us": "America",
+        "cn": "China",
+        "sg": "Asia (Singapore)",
+        "ru": "Russia",
+        "kr": "Korea"
+      }
+    }
+  },
+  "entity": {
+    "number": {
+      "fridge_temperature": {
+        "name": "Fridge temperature"
+      },
+      "freezer_temperature": {
+        "name": "Freezer temperature"
+      }
+    },
+    "select": {
+      "mode": {
+        "name": "Mode",
+        "state": {
+          "manual": "Manual",
+          "super_cool": "SuperCool",
+          "super_freeze": "SuperFreeze",
+          "vacation": "Vacation",
+          "super_cool_freeze": "SuperCool + SuperFreeze"
+        }
+      },
+      "flex_zone": {
+        "name": "Flex zone",
+        "state": {
+          "fruit_vegetables": "Fruit & vegetables",
+          "drinks": "Drinks",
+          "soft_freeze": "Soft Freeze"
+        }
+      },
+      "night_view_level": {
+        "name": "Night view brightness",
+        "state": {
+          "moonlight": "Moonlight",
+          "comfort": "Comfort",
+          "bright": "Bright"
+        }
+      }
+    },
+    "switch": {
+      "ice_cube": {
+        "name": "Ice cubes"
+      },
+      "ice_crunch": {
+        "name": "Crushed ice"
+      },
+      "sparkling": {
+        "name": "Sparkling water"
+      },
+      "always_fresh": {
+        "name": "Always Fresh"
+      },
+      "autofill": {
+        "name": "Autofill"
+      },
+      "night_view": {
+        "name": "Night View"
+      }
+    },
+    "binary_sensor": {
+      "door_fridge": {
+        "name": "Fridge door"
+      },
+      "door_freezer": {
+        "name": "Freezer door"
+      },
+      "ice_cube_full": {
+        "name": "Ice cube bin full"
+      },
+      "ice_crunch_full": {
+        "name": "Crushed ice bin full"
+      },
+      "co2_low": {
+        "name": "CO₂ low"
+      },
+      "water_low": {
+        "name": "Water tank low"
+      },
+      "problem": {
+        "name": "Problem"
+      },
+      "quiet_time": {
+        "name": "Quiet time"
+      },
+      "sabbath_mode": {
+        "name": "Sabbath mode"
+      },
+      "cloud": {
+        "name": "Cloud connection"
+      }
+    },
+    "sensor": {
+      "error": {
+        "name": "Error",
+        "state": {
+          "none": "No error",
+          "sensor_1": "Sensor fault 1",
+          "sensor_2": "Sensor fault 2",
+          "sensor_3": "Sensor fault 3",
+          "sensor_4": "Sensor fault 4",
+          "sensor_5": "Sensor fault 5",
+          "sensor_6": "Sensor fault 6",
+          "sensor_7": "Sensor fault 7",
+          "communication": "Communication fault",
+          "door_open_too_long": "Door open too long",
+          "ice_sensor_1": "Ice maker sensor fault 1",
+          "ice_sensor_2": "Ice maker sensor fault 2",
+          "sparkling_sensor": "Sparkling sensor fault"
+        }
+      },
+      "last_still_water": {
+        "name": "Last still water dispense"
+      },
+      "last_sparkling_water": {
+        "name": "Last sparkling water dispense"
+      },
+      "carbonation_cycles": {
+        "name": "Carbonation cycles"
+      }
+    }
+  }
+}

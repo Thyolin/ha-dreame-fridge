@@ -1,0 +1,168 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Dreamehome-Konto",
+        "description": "Mit dem Konto aus der Dreamehome-App anmelden.",
+        "data": {
+          "username": "E-Mail",
+          "password": "Passwort",
+          "country": "Server-Region"
+        }
+      },
+      "device": {
+        "title": "Kühlschrank wählen",
+        "data": {
+          "device_id": "Kühlschrank"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Erneut anmelden",
+        "description": "Das Passwort für {username} wird nicht mehr akzeptiert.",
+        "data": {
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "E-Mail oder Passwort falsch.",
+      "cannot_connect": "Dreamehome-Cloud nicht erreichbar.",
+      "no_fridge": "Kein Dreame-Kühlschrank in diesem Konto gefunden."
+    },
+    "abort": {
+      "already_configured": "Dieser Kühlschrank ist bereits eingerichtet.",
+      "reauth_successful": "Anmeldung aktualisiert."
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "eu": "Europa",
+        "us": "Amerika",
+        "cn": "China",
+        "sg": "Asien (Singapur)",
+        "ru": "Russland",
+        "kr": "Korea"
+      }
+    }
+  },
+  "entity": {
+    "number": {
+      "fridge_temperature": {
+        "name": "Kühlteil-Temperatur"
+      },
+      "freezer_temperature": {
+        "name": "Gefrierteil-Temperatur"
+      }
+    },
+    "select": {
+      "mode": {
+        "name": "Modus",
+        "state": {
+          "manual": "Manuell",
+          "super_cool": "SuperCool",
+          "super_freeze": "SuperFreeze",
+          "vacation": "Urlaub",
+          "super_cool_freeze": "SuperCool + SuperFreeze"
+        }
+      },
+      "flex_zone": {
+        "name": "Flex-Zone",
+        "state": {
+          "fruit_vegetables": "Obst & Gemüse",
+          "drinks": "Getränke",
+          "soft_freeze": "Soft Freeze"
+        }
+      },
+      "night_view_level": {
+        "name": "Night-View-Helligkeit",
+        "state": {
+          "moonlight": "Moonlight",
+          "comfort": "Comfort",
+          "bright": "Bright"
+        }
+      }
+    },
+    "switch": {
+      "ice_cube": {
+        "name": "Eiswürfel"
+      },
+      "ice_crunch": {
+        "name": "Crushed Ice"
+      },
+      "sparkling": {
+        "name": "Sprudelwasser"
+      },
+      "always_fresh": {
+        "name": "Always Fresh"
+      },
+      "autofill": {
+        "name": "Autofill"
+      },
+      "night_view": {
+        "name": "Night View"
+      }
+    },
+    "binary_sensor": {
+      "door_fridge": {
+        "name": "Kühlteil-Tür"
+      },
+      "door_freezer": {
+        "name": "Gefrierteil-Tür"
+      },
+      "ice_cube_full": {
+        "name": "Eiswürfelbehälter voll"
+      },
+      "ice_crunch_full": {
+        "name": "Crushed-Ice-Behälter voll"
+      },
+      "co2_low": {
+        "name": "CO₂ niedrig"
+      },
+      "water_low": {
+        "name": "Wassertank fast leer"
+      },
+      "problem": {
+        "name": "Problem"
+      },
+      "quiet_time": {
+        "name": "Ruhezeit"
+      },
+      "sabbath_mode": {
+        "name": "Sabbat-Modus"
+      },
+      "cloud": {
+        "name": "Cloud-Verbindung"
+      }
+    },
+    "sensor": {
+      "error": {
+        "name": "Fehler",
+        "state": {
+          "none": "Kein Fehler",
+          "sensor_1": "Sensorfehler 1",
+          "sensor_2": "Sensorfehler 2",
+          "sensor_3": "Sensorfehler 3",
+          "sensor_4": "Sensorfehler 4",
+          "sensor_5": "Sensorfehler 5",
+          "sensor_6": "Sensorfehler 6",
+          "sensor_7": "Sensorfehler 7",
+          "communication": "Kommunikationsfehler",
+          "door_open_too_long": "Tür zu lange offen",
+          "ice_sensor_1": "Eisbereiter-Sensorfehler 1",
+          "ice_sensor_2": "Eisbereiter-Sensorfehler 2",
+          "sparkling_sensor": "Sprudel-Sensorfehler"
+        }
+      },
+      "last_still_water": {
+        "name": "Letzte Zapfung still"
+      },
+      "last_sparkling_water": {
+        "name": "Letzte Zapfung sprudelnd"
+      },
+      "carbonation_cycles": {
+        "name": "Karbonisier-Zyklen"
+      }
+    }
+  }
+}
