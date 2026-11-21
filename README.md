@@ -1,3 +1,5 @@
+<img src="assets/icon.svg" alt="" width="96" align="right">
+
 # Dreame Fridge for Home Assistant
 
 Unofficial Home Assistant integration for Dreame refrigerators that are bound to a
@@ -45,6 +47,11 @@ the fridge's control panel, and remote carbonation.
   copy of the app and are needed to talk to the cloud.
 * MQTT is TLS-encrypted and only Dreame's IoT root certificate (`dreame_iot_ca.pem`) is
   trusted for it.
+
+## Icon
+
+The integration ships its own icon (`brand/`), shown by Home Assistant 2026.3 and newer.
+Source: `assets/icon.svg`. It is an original drawing, not the Dreame logo.
 
 ## Troubleshooting
 

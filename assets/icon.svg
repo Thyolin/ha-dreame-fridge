@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<defs>
+<linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="14" x2="0" y2="242"><stop offset="0" stop-color="#3fb6f0"/><stop offset="1" stop-color="#1565c0"/></linearGradient>
+<clipPath id="b"><rect x="50" y="14" width="156" height="228" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#b)" fill="url(#g)">
+<rect x="50" y="14" width="75" height="130"/>
+<rect x="131" y="14" width="75" height="130"/>
+<rect x="50" y="150" width="156" height="43"/>
+<rect x="50" y="199" width="156" height="43"/>
+</g>
+<g fill="#ffffff">
+<rect x="110" y="38" width="8" height="74" rx="4"/>
+<rect x="138" y="38" width="8" height="74" rx="4"/>
+<rect x="100" y="163" width="56" height="8" rx="4"/>
+<rect x="100" y="212" width="56" height="8" rx="4"/>
+</g>
+<rect x="62" y="34" width="38" height="84" rx="10" fill="#ffffff" opacity=".22"/>
+<g fill="none" stroke="#ffffff" stroke-width="5">
+<circle cx="78" cy="100" r="8.5"/><circle cx="86" cy="73" r="5.5"/><circle cx="75" cy="52" r="3.5"/></g>
+<path d="M181 158 v18 M173.2 162.5 l15.6 9 M173.2 171.5 l15.6 -9" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+</svg>

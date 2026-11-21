@@ -10,5 +10,5 @@
   "issue_tracker": "https://github.com/Thyolin/ha-dreame-fridge/issues",
   "loggers": ["custom_components.dreame_fridge"],
   "requirements": ["paho-mqtt>=1.6.1"],
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
